@@ -32,7 +32,7 @@
 
 
         <div class="form-group">
-            {!! Form::submit('Create Category', ['clas'=>'form-control']) !!}
+            {!! Form::submit('Create Category', ['class'=>'form-control']) !!}
         </div>
 
 
