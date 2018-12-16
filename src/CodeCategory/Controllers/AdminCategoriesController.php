@@ -16,7 +16,7 @@ class AdminCategoriesController extends Controller
 
     public function __construct(ResponseFactory $response, CategoryRepositoryInterface $repository)
     {
-        $this->authorize('access_categories');
+        //$this->authorize('access_categories');
         $this->repository = $repository;
         $this->response = $response;
     }
